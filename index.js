@@ -28,7 +28,13 @@ const exampleMovies = require("./movies");
       "James and the Giant Peach",
     ];
  */
-function getAllMovieTitles() {}
+function getAllMovieTitles(movies) {
+  for(let i = 0; i < movies.length; i++) {
+   
+
+
+  }
+}
 
 /**
  * getHighestMetascore()
@@ -41,7 +47,29 @@ function getAllMovieTitles() {}
  *  getHighestMetascore(movies);
  *  //> 96
  */
-function getHighestMetascore() {}
+function getHighestMetascore(movies) {
+
+  let arr = [];
+for (let i = 0; i < movies.length; i++) {
+  Math.max(movies);
+if(movies.arr[i] = 0) {
+  return false;
+
+} else {
+
+  
+
+
+}
+return true;
+
+}
+
+
+}
+
+
+
 
 /**
  * getAverageIMDBRating()
@@ -54,12 +82,26 @@ function getHighestMetascore() {}
  *  getAverageIMDBRating(movies);
  *  //> 7.76
  */
-function getAverageIMDBRating() {}
+function getAverageIMDBRating(movies) {
+let arr = [];
+
+for(let i = 0; i < movies.length; i++) {
+
+const average = arr => arr.reduce(movies);
+
+average([movies]);
+
+}
+
+return arr;
+
+}
 
 /**
  * countByRating()
  * -----------------------------
- * Returns an object where the keys are movie ratings and the values are the number of movies in the array with that rating. If the inputted `movies` array is empty, return `{}`.
+ * Returns an object where the keys are movie ratings and the values are the number of movies in the array with that rating.
+ *  If the inputted `movies` array is empty, return `{}`.
  * @param {Object[]} movies - An array of movies. See the `movies.js` file for an example of this array.
  * @returns {Object} An object where keys are movie ratings (e.g. "PG") and the values are how many movies in the array have that rating (e.g. 7).
  *
@@ -67,7 +109,15 @@ function getAverageIMDBRating() {}
  *  countByRating(movies);
  *  //> { G: 3, PG: 7 }
  */
-function countByRating() {}
+function countByRating(movies) {
+let arr = [];
+for (let i = 0; i < movies.length; i++) {
+
+movies[i].arr 
+
+}
+
+}
 
 /**
  * findById()
@@ -83,7 +133,19 @@ function countByRating() {}
       // Toy Story 4
     };
  */
-function findById() {}
+function findById(movies, id) {
+for (let i = 0; i < movies.length; i++) {
+  let ID = movies;
+if(findById) {
+
+
+
+}
+
+}
+
+
+}
 
 /**
  * filterByGenre()
@@ -105,7 +167,13 @@ function findById() {}
  *  filterByGenre(movies, "Horror")
  *  //> []
  */
-function filterByGenre() {}
+function filterByGenre(movies, genre) {
+  let genre = 0;
+for (let i = 0; i < movies.length; i++) {
+//if(!movies[genre])
+}
+
+}
 
 /**
  * getAllMoviesReleasedAtOrBeforeYear()
